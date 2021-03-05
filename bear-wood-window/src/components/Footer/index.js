@@ -4,7 +4,9 @@ import styled from "styled-components";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 import filetext from "../../assets/file-text.svg";
-import resume from "../../assets/Resume.jpg";
+
+// Line below is to import photo's
+// import resume from "../../assets/Resume.jpg";
 
 const Wrapper = styled.footer`
   text-align: center;
@@ -29,8 +31,7 @@ const Links = styled.div`
 const Footer = () => {
   return (
     <Wrapper>
-      <p>Bear Wood Windows 2020 ©</p>
-
+      
       <Links>
         <a href="https://github.com/jyates92">
           <img src={github} />
@@ -41,6 +42,9 @@ const Footer = () => {
         <a href="https://drive.google.com/file/d/1BxEdYOZqjnbzRh7T9cXkd_GL6a-rzZiP/view">
           <img src={filetext} />
         </a>
+        <hr></hr>
+        <p>Bear Wood Windows 2020 ©</p>
+
       </Links>
     </Wrapper>
   );

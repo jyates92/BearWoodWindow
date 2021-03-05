@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 
 const Content = styled.div`
   max-width: 400px;
-  width: 100%;F
+  width: 100%;
   text-align: center;
   margin: 0 auto;
   span {
@@ -26,7 +26,7 @@ const Content = styled.div`
 const Contact = () => {
   const [copied, setCopied] = useState(false);
   const copyEmail = () => {
-    copy("jeremiahyates1992@gmail.com");
+    copy("grace@bearwoodwindow.com");
     setCopied(true);
     setTimeout(() => {
       setCopied(false);

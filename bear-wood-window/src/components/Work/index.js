@@ -25,8 +25,8 @@ const Preview = styled.div`
 
 const Link = styled.a`
   text-decoration: none;
-  color: #2b8a3e;
-  background-color: #ebfbee;
+  color: white;
+  background-color: #191970;
   border-radius: 3px;
   margin-left: 10px;
   padding: 6px;
