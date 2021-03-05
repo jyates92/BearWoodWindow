@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import headshot from "../../assets/headshot.jpg";
+import bear from "../../assets/bear.gif";
 
 const Wrapper = styled.div`
-  background: #2b8a3e;
+  background: #357F95;
 `;
 
 const Content = styled.div`
@@ -19,7 +19,7 @@ const Content = styled.div`
 
 const Avatar = styled.div`
   img {
-    width: 600px;
+    width: 150px;
     height: auto;
     position: absolute;
     left: 50%;
@@ -45,15 +45,12 @@ const Bio = () => {
     <Wrapper>
       <Content>
         <Avatar>
-          <img src={headshot} />
+          <img src={bear} />
         </Avatar>
         <Info>
-          <h2>Welcome to my Portfolio </h2>
+          <h2>Bear Wood Windows!</h2>
           <p>
-            I'm Jeremiah, a construction manager in Seattle, WA. I am passionate
-            about development and am certified from the University of Washington
-            in web development. I have a 120lb Bernese Mountain Dog, Opie, and
-            live with my Fiance in West Seattle.{" "}
+           Welcome to Bear Wood Windows, the forefront in window renovation.{" "}
           </p>
         </Info>
       </Content>

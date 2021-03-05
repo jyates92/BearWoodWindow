@@ -9,7 +9,7 @@ import resume from "../../assets/Resume.jpg";
 const Wrapper = styled.footer`
   text-align: center;
   padding: 40px;
-  background: #2b8a3e;
+  background: #357F95;
   color: white;
   font-weight: bold;
   display: flex;
@@ -29,7 +29,7 @@ const Links = styled.div`
 const Footer = () => {
   return (
     <Wrapper>
-      <p>Jeremiah 2020</p>
+      <p>Bear Wood Windows 2020 ©</p>
 
       <Links>
         <a href="https://github.com/jyates92">

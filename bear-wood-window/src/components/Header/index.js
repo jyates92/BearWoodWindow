@@ -9,15 +9,15 @@ const Wrapper = styled.header`
   align-items: center;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
   h1 {
-    color: #212529;
+    color: #357F95;
   }
 `;
 
 const Nav = styled.nav`
   a {
     text-decoration: none;
-    color: #2b8a3e;
-    background-color: #ebfbee;
+    color: white;
+    background-color: #357F95;
     border-radius: 3px;
     margin-left: 10px;
     padding: 6px;
@@ -28,7 +28,7 @@ const Title = styled.h1``;
 const Header = () => {
   return (
     <Wrapper>
-      <Title>Jeremiah</Title>
+      <Title>Bear Wood Windows</Title>
       <Nav>
         <a href="#work">Work</a>
         <a href="#contact">Contact</a>

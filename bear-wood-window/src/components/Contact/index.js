@@ -4,15 +4,16 @@ import copy from "copy-to-clipboard";
 import Confetti from "react-dom-confetti";
 
 const Wrapper = styled.div`
-  background: #ebfbee;
+  background: #00BFFF;
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
+  opacity: .5;
 `;
 
 const Content = styled.div`
   max-width: 400px;
-  width: 100%;
+  width: 100%;F
   text-align: center;
   margin: 0 auto;
   span {
@@ -34,10 +35,10 @@ const Contact = () => {
   return (
     <Wrapper id="contact">
       <Content>
-        <h1>Contact me</h1>
+        <h1>Contact Us</h1>
         <Confetti active={copied} />
         <p>
-          Simply click <span onClick={() => copyEmail()}>here</span> to copy my
+          Simply click <span onClick={() => copyEmail()}>here</span> to copy our
           email to your clipboard!
         </p>
       </Content>
